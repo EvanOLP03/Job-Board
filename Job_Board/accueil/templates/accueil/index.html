@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Page d'accueil - Job Board</title>
+        <link rel="stylesheet" href="{% static 'accueil/styles.css' %}"> <!-- Lien vers le CSS -->
+    </head>
+<body>
+
+    <!-- Barre de navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Logo du site">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Trouver un job</a></li>
+            <li class="account-menu">
+                <button class="account-button">Mon compte</button>
+                <div class="dropdown-content">
+                    <a href="#">S'inscrire</a>
+                    <a href="#">Se connecter</a>
+                    <a href="#">Zone recruteur</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Section héro -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Trouvez votre prochain emploi de rêve</h1>
+            <form>
+                <input type="text" placeholder="Rechercher un emploi...">
+                <button type="submit" class="btn-search">Rechercher</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
