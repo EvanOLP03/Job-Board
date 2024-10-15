@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Recherche d'Emploi</title>
+    <link rel="stylesheet" href="{% static 'accueil/styles.css' %}">
+</head>
+<body>
+
+<section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+        <h1>Et si demain vous étiez ...</h1>
+        <p>Des milliers d'opportunités à explorer pour une carrière réussie !</p>
+        <div class="hero-buttons">
+            <a href="FindJob.html" class="btn-cta pulse-animation">Rechercher un emploi</a>
+            <a href="{% url 'login' %}" class="btn-secondary">Accéder à mon compte</a>
+
+        </div>
+    </div>
+</section>
+</body>
+</html>
