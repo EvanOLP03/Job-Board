@@ -19,6 +19,7 @@ body{
 }
 
 .bg-holger{
+background-image: url('inscription.jpg');
 position: absolute;
 width: 100%;
 min-height: 100%;
