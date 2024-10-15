@@ -1,0 +1,76 @@
+body{
+    margin-top: 20px; 
+ 
+ }
+ 
+ 
+ .main{
+     padding: 15px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .topbar a{
+     float: right;
+     color: black;
+     text-align:20 px 26px ;
+     text-decoration:none ;
+     font-size: 26px;
+ }
+ 
+ .sadebar{
+ background-color:black;
+ color: black ;
+ height: 100%;
+ }
+ .sidebar a{
+     margin-left: 10px;
+     display: block;
+     color: black;
+     padding-bottom: 10px; 
+     font-size: 30px;
+     text-decoration:none; 
+ }
+ 
+ .car{
+    position:relative ; 
+    display: flex;
+    flex-direction: column;
+ 
+ }
+ .content{
+     background-color: rgba(255, 255, 255, 0.589);
+ padding: 40px;
+ 
+ }
+ 
+ .content1{
+     background-color: rgba(255, 255, 255, 0.106);
+     padding: 25px;
+     
+ }
+ .content2{
+  background-color: rgba(255, 255, 255, 0);
+  
+ 
+ }
+ 
+ 
+ 
+ .account-button{
+     background-color: rgba(224, 214, 214, 0.586);
+     color: rgb(0, 0, 0);
+     border: none;
+     padding: 12px 25px;
+     font-size: 16px;
+     font-weight: 600;
+     cursor: pointer;
+     border-radius: 30px;
+     transition: background-color 0.4s ease, transform 0.45s ease;
+ 
+ }
+ 
+ .infos{
+ font-size: 12px;
+ }
+ 
+ 
