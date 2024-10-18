@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,500; 0,6..12,700; 1,6..12,400; 1,6..12,500; 1,6..12,700&display=swap');
+body{
+    font-family:"Nunito Sans; sans-serif";
+    background:#fff;
+}
+.btn{
+    font-size:0.8em;
+    font-weight: 700;
+}
+.a{
+    text-decoration: none;
+
+}
+.btn i{
+    vertical-align: text-top;
+}
+.a:hover{
+    text-decoration: underline;
+}
+
+.bg-holger{
+background-image: url('inscription.jpg');
+position: absolute;
+width: 100%;
+min-height: 100%;
+top: 0;
+left: 0;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+}
