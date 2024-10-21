@@ -1,8 +1,10 @@
 Comment installer Job Vibez :
 
-```git clone git@github.com:EpitechMscProPromo2027/T-WEB-501-PAR_17.git
+```
+git clone git@github.com:EpitechMscProPromo2027/T-WEB-501-PAR_17.git
 cd T-WEB-501-PAR_17/Job_Board
-python manage.py runsever```
+python manage.py runsever
+```
 
 
 
