@@ -71,7 +71,13 @@ Flexbox : Utilisé pour optimiser la mise en page et la navigation.
 Système de login : Pour sécuriser l'accès des utilisateurs.
 
 
-| Command | Description |
-| --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
+| Front end | Back end | Framework | Difficulté rencontré |
+| --- | --- |--- | --- |
+| -Technologie utiliser : Html Css avec bootstrap | -Base de données SQL pour stocker les offres d’emplois |
+-Utilisation du framework django | -Difficulté à créer une interface attrayante -Problèmes de compatibilité entre navigateurs ou appareils responsive design |
+| Command | Description | Command | Description |
+| Command | Description | Command | Description |
+| Command | Description | Command | Description |
+| Command | Description | Command | Description |
+| Command | Description | Command | Description |
+| Command | Description | Command | Description |
