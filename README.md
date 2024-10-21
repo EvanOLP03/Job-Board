@@ -67,3 +67,7 @@ La gestion des données a été complexe, notamment pour l'optimisation des requ
 Page admin : Permet aux utilisateurs et aux entreprises de gérer leurs informations.
 Flexbox : Utilisé pour optimiser la mise en page et la navigation.
 Système de login : Pour sécuriser l'accès des utilisateurs.
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
